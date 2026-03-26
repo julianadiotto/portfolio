@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Juliana Diotto | Desenvolvedora</title>
+</head>
+
+<body>
+    <header>
+        <h1>Portfólio</h1>
+        <nav class="nav">
+            <ul class="menu">
+                <li>
+                    <a href="#inicio" class="menu-link">Início</a>
+                </li>
+                <li>
+                    <a href="#sobre" class="menu-link">Sobre</a>
+                </li>
+                <li>
+                    <a href="#projetos" class="menu-link">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="menu-link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="inicio" class="perfil">
+            <div class="foto-container">
+                <img src="img/ju.jpg" alt="foto de Juliana Diotto de Oliveira" class="foto-perfil">
+            </div>
+            <h1>Juliana Diotto de Oliveira</h1>
+            <p>Desenvolvedora Web</p>
+        </div>
+        <section id="sobre" class="section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-box">
+                <h3 class="about-headline">Maturidade, resiliência e a paixão por aprender: <br>
+                    <span>Minha transição para o Desenvolvimento Web.</span>
+                </h3>
+                <div class="main-text">
+                    <p>Olá! Meu nome é <strong>Juliana</strong> e sou graduada em Tecnologia em Desenvolvimento Web.
+                        Minha trajetória é única: construí uma base profissional sólida de 9 anos no setor cartorário e,
+                        logo após, fiz uma pausa na carreira profissional para me dedicar à missão de gerir minha casa e
+                        a criação das minhas três filhas.</p>
+
+                    <p>Essa pausa de 13 anos me trouxe habilidades como: multitarefa, paciência, gestão de crises e uma
+                        organização impecável. Com minhas filhas crescendo, decidi que era hora de investir no meu
+                        sonho: a tecnologia.</p>
+
+                    <p>Retornar aos estudos e concluir minha graduação em 2025 foi o maior marco dessa retomada. Hoje,
+                        uno a experiência de vida e a seriedade de quem sabe gerir responsabilidades complexas com o
+                        conhecimento técnico atualizado em desenvolvimento de software.</p>
+                </div>
+
+                <h4 class="skills-title">O que eu ofereço:</h4>
+
+                <ul class="skill-list">
+                    <li><strong>Formação Técnica:</strong> Graduação concluída com domínio em JavaScript, HTML, CSS e
+                        SQL.</li>
+                    <li><strong>Projetos Práticos:</strong> Experiência em consumo de APIs e lógica de programação
+                        (confira meus projetos abaixo!).</li>
+                    <li><strong>Perfil Diferenciado:</strong> Sou uma profissional que une a energia de quem acabou de
+                        se formar com a maturidade de quem sabe a importância do compromisso e da entrega constante.
+                    </li>
+                </ul>
+
+                <p class="final-call">Estou em busca da minha primeira oportunidade como Desenvolvedora Web Júnior,
+                    pronta para aplicar minha dedicação e meu olhar detalhista em projetos que façam a diferença.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="project-box">
+
+                <div class="project-card" data-link="https://julianadiotto.github.io/jogo-ponte/">
+                    <img src="img/imgdados-400.jpg" alt="Projeto 1" class="project-image">
+                    <div class="project-box-text">
+
+                        <h3 class="project-info">Jogo - Ponte de Vidro</h3>
+                        <p class="project-text">Desenvolvido com JavaScript Vanilla, este projeto foca na lógica de
+                            programação e manipulação do DOM. O jogo desafia o usuário em uma dinâmica de sorte e
+                            gerenciamento de estado, utilizando estruturas condicionais e eventos para criar uma experiência interativa.                            
+                        </p>
+                    </div>
+                </div>
+                <div class="project-card" data-link="https://julianadiotto.github.io/previsao-tempo/">
+                    <img src="img/clima.jpg" alt="Projeto 2" class="project-image">
+                    <div class="project-box-text">
+
+                        <h3 class="project-info">Previsão do tempo</h3>
+                        <p class="project-text">Aplicação prática de consumo de API REST (OpenWeatherMap). O projeto
+                            permite a busca em tempo real de dados climáticos de qualquer cidade, tratando retornos de
+                            JSON e atualizando a interface de forma dinâmica com JavaScript.</p>
+                    </div>
+                </div>
+                <div class="project-card" data-link="https://julianadiotto.github.io/site-android/">
+                    <img src="img/bugdroid.png" alt="Projeto 3" class="project-image">
+                    <div class="project-box-text">
+
+                        <h3 class="project-info">Site sobre o Android</h3>
+                        <p class="project-text">Projeto focado no domínio de HTML5 e CSS3, explorando conceitos de
+                            design responsivo, tipografia e o uso de elementos semânticos. O site narra a evolução do
+                            mascote do Android com um layout limpo e adaptável a diferentes telas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="section">
+            <h2 class="section-title">Entre em Contato</h2>
+            <form class="contact-form" id="formulario">
+                <div class="contact-group">
+                    <input type="text" class="contact-field" placeholder="Nome" id="nome">
+                </div>
+                <div class="contact-group">
+                    <textarea class="contact-field" placeholder="Digite sua mensagem" rows="3" id="msg"></textarea>
+                </div>
+                <button type="submit" class="button-form" id="btnSubmit">Enviar WhatsApp</button>
+                <div class="contact-links">
+                    <a href="https://linkedin.com/in/julianadiotto" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/julianadiotto" target="_blank">GitHub</a> |
+                    <a href="mailto:julianadiotto@outlook.com" target="_blank">julianadiotto@outlook.com</a>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Portfólio de Juliana Diotto de Oliveira.
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
