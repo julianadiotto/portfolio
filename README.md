@@ -10,6 +10,9 @@ CSS3 Moderno: Com uso de Variáveis (CSS Variables), Flexbox, CSS Grid e animaç
 
 JavaScript (ES6+): Manipulação dinâmica do DOM, integração com API do WhatsApp e eventos interativos.
 
+C# (.NET Core / ASP.NET Core Web API): Para o desenvolvimento de APIs e lógica de back-end.
+MySQL: Para modelagem e persistência de dados com Entity Framework Core.
+
 Design Responsivo: Implementação de Media Queries para adaptação total em dispositivos móveis.
 
 Projetos em Destaque
@@ -20,6 +23,8 @@ Jogo - Ponte de Vidro: Lógica de programação pura e manipulação de eventos.
 Previsão do Tempo: Consumo de API REST (OpenWeatherMap) e tratamento de dados JSON em tempo real.
 
 Site Android: Domínio de CSS avançado e estruturação semântica.
+
+API - Agendamento Clínico (Back-end / Código no GitHub): Minha solução de bastidores desenvolvida em C# e MySQL.
 
 [Visualizar Portfólio.](https://julianadiotto.github.io/portfolio/)
 

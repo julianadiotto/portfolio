@@ -231,7 +231,7 @@ header>h1 {
 
 .project-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -253,9 +253,13 @@ header>h1 {
 }
 
 .project-image {
+   
     width: 100%;
-    height: 250px;
+    /* Reduzindo de 250px para 160px ou 180px */
+    height: 250px; 
     object-fit: cover;
+    /* Garante que o corte, se houver, seja distribuído igualmente */
+    object-position: center;
 }
 
 .project-box-text {
